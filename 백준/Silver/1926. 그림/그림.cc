@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define X first
 #define Y second
 int dx[4] = {1, 0, -1, 0};
@@ -21,22 +20,20 @@ int main(void){
 			cin >> board[i][j];
 		}
 	}
-	
-	int num = 0;
-	int mx = 0;
-	
+		
+	int num = 0; //그림의 개수
+	int mx = 0; //그림 넓이의 최댓값
+		
 	for(int i=0; i<n; i++){
 		for(int j=0; j<m; j++){
-			//시작점 찾기
 			if(vis[i][j]==1 || board[i][j]==0) continue;
-			
-			queue<pair<int, int>> Q;
 			vis[i][j] = 1;
-			Q.push({i, j});
-			num++; //시작점 개수 = 그림 개수
+			num++;
 			
-			int area = 0; //그림의 넓이
-			//하나의 BFS 당 하나의 큐가 존재
+			queue<pair<int, int>> Q; //시작점마다 큐가 하나씩
+			Q.push({i, j});
+			
+			int area=0;
 			
 			while(!Q.empty()){
 				pair<int, int> cur = Q.front();
@@ -48,14 +45,14 @@ int main(void){
 					int ny = cur.Y + dy[dir];
 					
 					if(nx<0 || nx>=n || ny<0 || ny>=m) continue;
-					if(vis[nx][ny]==1 || board[nx][ny]==0) continue;
+					if(vis[nx][ny]==1||board[nx][ny]==0) continue;
 					
 					vis[nx][ny] = 1;
-					Q.push({nx,ny});
+					Q.push({nx, ny});
 				}
 			}
 			
-			mx = max(area, mx);
+			mx = max(mx, area);
 		}
 	}
 	cout << num << '\n' << mx;
