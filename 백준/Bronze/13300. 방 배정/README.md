@@ -23,45 +23,45 @@
 <p>예를 들어, 수학여행을 가는 학생이 다음과 같고 K = 2일 때 12개의 방이 필요하다. 왜냐하면 3학년 남학생을 배정하기 위해 방 두 개가 필요하고 4학년 여학생에는 방을 배정하지 않아도 되기 때문이다.</p>
 
 <table class="table table-bordered table-center-30">
-	<thead>
-		<tr>
-			<th>학년</th>
-			<th>여학생</th>
-			<th>남학생</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1학년</td>
-			<td>영희</td>
-			<td>동호, 동진</td>
-		</tr>
-		<tr>
-			<td>2학년</td>
-			<td>혜진, 상희</td>
-			<td>경수</td>
-		</tr>
-		<tr>
-			<td>3학년</td>
-			<td>경희</td>
-			<td>동수, 상철, 칠복</td>
-		</tr>
-		<tr>
-			<td>4학년</td>
-			<td> </td>
-			<td>달호</td>
-		</tr>
-		<tr>
-			<td>5학년</td>
-			<td>정숙</td>
-			<td>호동, 건우</td>
-		</tr>
-		<tr>
-			<td>6학년</td>
-			<td>수지</td>
-			<td>동건</td>
-		</tr>
-	</tbody>
+  <thead>
+    <tr>
+      <th>학년</th>
+      <th>여학생</th>
+      <th>남학생</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1학년</td>
+      <td>영희</td>
+      <td>동호, 동진</td>
+    </tr>
+    <tr>
+      <td>2학년</td>
+      <td>혜진, 상희</td>
+      <td>경수</td>
+    </tr>
+    <tr>
+      <td>3학년</td>
+      <td>경희</td>
+      <td>동수, 상철, 칠복</td>
+    </tr>
+    <tr>
+      <td>4학년</td>
+      <td> </td>
+      <td>달호</td>
+    </tr>
+    <tr>
+      <td>5학년</td>
+      <td>정숙</td>
+      <td>호동, 건우</td>
+    </tr>
+    <tr>
+      <td>6학년</td>
+      <td>수지</td>
+      <td>동건</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 입력 

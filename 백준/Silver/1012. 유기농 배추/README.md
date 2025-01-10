@@ -21,80 +21,80 @@
 <p>한나가 배추를 재배하는 땅은 고르지 못해서 배추를 군데군데 심어 놓았다. 배추들이 모여있는 곳에는 배추흰지렁이가 한 마리만 있으면 되므로 서로 인접해있는 배추들이 몇 군데에 퍼져있는지 조사하면 총 몇 마리의 지렁이가 필요한지 알 수 있다. 예를 들어 배추밭이 아래와 같이 구성되어 있으면 최소 5마리의 배추흰지렁이가 필요하다. 0은 배추가 심어져 있지 않은 땅이고, 1은 배추가 심어져 있는 땅을 나타낸다.</p>
 
 <table class="table table-bordered" style="width:40%">
-	<tbody>
-		<tr>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-		</tr>
-		<tr>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-		</tr>
-		<tr>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-		</tr>
-		<tr>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-		</tr>
-		<tr>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-		</tr>
-		<tr>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%">0</td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-			<td style="text-align:center; width:4%"><strong>1</strong></td>
-		</tr>
-	</tbody>
+  <tbody>
+    <tr>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%">0</td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+      <td style="text-align:center; width:4%"><strong>1</strong></td>
+    </tr>
+  </tbody>
 </table>
 
 ### 입력 
