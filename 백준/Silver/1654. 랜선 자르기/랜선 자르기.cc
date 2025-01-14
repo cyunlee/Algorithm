@@ -1,16 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
-int k, n;
-long long A[10002];
+typedef long long ll;
 
-long long parametric_search(int mx_line, int n) {
-  long long st = 1;
-  long long en = mx_line;
-  long long ans = 0;
+int k, n;
+ll A[10002];
+
+ll parametric_search(int mx_line, int n) {
+  ll st = 1;
+  ll en = mx_line;
+  ll ans = 0;
 
   while(st <= en) {
-    long long mid = (st + en)/2;
-    long long sum = 0;
+    ll mid = (st + en)/2;
+    ll sum = 0;
 
     for(int i=0; i<k; i++){
       sum += A[i]/mid;
@@ -34,7 +36,7 @@ int main(void) {
   //k- 가지고 있는 랜선 수, n- 필요한 랜선 수
   cin >> k >> n;
 
-  long long mx_line = 0;
+  ll mx_line = 0;
 
   // 랜선 길이 입력
   for(int i=0; i<k; i++){
